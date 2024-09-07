@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  nav {
+    height: 80px;
+    background: #320b0b ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+  }
+
+  .logo {
+    color: #e7e4f9;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+  }
+  
+  nav a {
+    width: auto;
+    text-decoration: none;
+    color: #e7e4f9;
+    padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+    color: #721117;
+  }
+  
+  .hero {
+    background-image: url(red.gif); 
+  
+  }
+
+  .hero-container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .column-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 2rem 10rem;
+  }
+
+  p.solid {border-style: solid;}
+  
+  .column-center h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    
+  }
+
+  .comlumn-center h4 {
+    text-align: center;
+  }
+  
+  .column-center u {
+    text-align: center;
+  }
+  
+  .social-icons a{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #721117;
+    border: 0.1rem solid #721117;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 2rem 2rem 2rem 0;
+    transition: 0.3s ease;
+    color: #dca0a0;
+  }
+
+  .social-icons a:hover{
+  color: #000000;
+  transform: scale(1.3) translateY(-5px);
+  background-color: #721117;
+  box-shadow: 0  0 25px #721117;
+  }
+
+  .hero-image {
+    justify-content: center; 
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%
+  }
+  div.a {
+    border: solid;
+    max-width: 1212px;
+    max-height: auto;
+    text-align: center;
+    background-color: #721117ee;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  div.b {
+    border: solid;
+    max-width: 1212px;
+    max-height: auto;
+    text-align: center;
+    background-color: #40070bee;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+
+  footer{
+    padding-left: 40px; 
+    background: #000000;
+  } 
+
+  
+  @media all and (max-width: 550px) {
+    .hero-container {
+     flex: 1;
+    }
+    .hero-image{
+      max-width: 100%;
+      max-height: fit-content;
+    }
+
+  }
+
+  
