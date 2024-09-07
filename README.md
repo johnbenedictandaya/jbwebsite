@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -88,7 +87,6 @@
     </section>
   </body>
 <footer>
-    
     <div class="social-icons">
       <a href="https://www.facebook.com/anaya.cervante/"><i class="fa-brands fa-facebook"></i></a>
       <a href="https://github.com/johnbenedictandaya"><i class="fa-brands fa-github"></i></a>
